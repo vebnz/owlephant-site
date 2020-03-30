@@ -9,10 +9,7 @@ const Home = () => (
       <title>Owlephant - Shhh....sleeping</title>
     </Head>
     <UnderConstruction
-      background={{ color: "#102a3d", textColor: "#fff",  overlay: {
-        color: '#000',
-        opacity: '.5'
-      } }}
+      background={{ color: "#102a3d", textColor: "#fff" }}
       logo={{ src: "/assets/logo.svg" }}
       title={{ text: "owlephant" }}
       description={{ text: "Building the elephant as we speak..." }}
