@@ -8,7 +8,7 @@ const PrivacyCommitment = () => {
         <Row className="justify-content-md-center">
           <Col md="auto" className="">
             <div className="section-title text-center">
-              <h2 class="text-white">Privacy Commitment</h2>
+              <h2 className="text-white">Privacy Commitment</h2>
               <Image src="/assets/images/white-line.png" fluid />
             </div>
             <ListGroup variant="flush">

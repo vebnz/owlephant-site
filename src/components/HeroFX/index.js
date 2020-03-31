@@ -37,14 +37,9 @@ const HeroFX = () => {
             value: "#CCC"
           },
           size: {
-            value: 25,
+            value: 20,
             random: false,
-            anim: {
-              enable: true,
-              speed: 4,
-              size_min: .10,
-              sync: false
-            }
+            
           },
           opacity: {
             value: 0.17626369048095938,
@@ -57,12 +52,12 @@ const HeroFX = () => {
           },
           move: {
             enable: true,
-            speed: 1.5,
+            speed: 2.5,
             direction: "none",
             random: true,
             straight: false,
             bounce: true,
-            attract: true,
+            attract: false,
             out_mode: "bounce"
             
           }
