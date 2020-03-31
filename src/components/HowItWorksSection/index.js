@@ -42,7 +42,7 @@ const HowItWorks = () => {
         <Row>
           <CardGroup>
             <Card>
-              <Card.Img variant="top" src="http://placehold.jp/200x150.png" />
+              <Card.Img variant="top" src="/assets/images/card1.svg" />
               <Card.Body>
                 <Card.Title>Cross Platform</Card.Title>
                 <Card.Text>
@@ -52,7 +52,7 @@ const HowItWorks = () => {
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="http://placehold.jp/200x150.png" />
+              <Card.Img variant="top" src="/assets/images/card2.svg" />
               <Card.Body>
                 <Card.Title>One App, Multiple Service</Card.Title>
                 <Card.Text>
@@ -62,7 +62,7 @@ const HowItWorks = () => {
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="http://placehold.jp/200x150.png" />
+              <Card.Img variant="top" src="/assets/images/card3.svg" />
               <Card.Body>
                 <Card.Title>Accessible</Card.Title>
                 <Card.Text>

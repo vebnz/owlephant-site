@@ -1,16 +1,18 @@
 import React from 'react';
-import { Container, Row, Col, ButtonGroup, Button , ListGroup} from 'react-bootstrap';
+import { Container, Row, Col, ButtonGroup, Button , ListGroup, Image} from 'react-bootstrap';
 import { Riot, Peertube, Mastodon, Pleroma, Diaspora } from "@icons-pack/react-simple-icons";
 import { IPhoneX, Pixel3XL } from 'react-device-frames';
+import HeroFX from '../HeroFX';
+
 
 const HeroSection = (props) => {
   return (
     <section className="slide-bg">
-      <div className="animation-circle">
+      {/* <div className="animation-circle">
         <i></i>
         <i></i>
         <i></i>
-      </div>
+      </div> */}
       <Container>
         <Row>
           <Col md="6">
@@ -36,11 +38,13 @@ const HeroSection = (props) => {
             </div>
           </Col>
           <Col md="6">
-            <div className="home-right">
-              <div className="mobile-slid">
-                <IPhoneX screenshot={"http://placehold.jp/1125x2436.png"} />
-              </div>
-            </div>
+            <HeroFX />
+
+            <Image
+              src="assets/images/hero.svg"
+              fluid
+              className="d-flex-1"
+            />
           </Col>
         </Row>
       </Container>

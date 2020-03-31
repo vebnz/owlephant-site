@@ -5050,4 +5050,18 @@ li.nav-item.dropdown:first-child .dropdown-menu {
 /*========================
 23.Responsive css Ends
 ==========================*/
+.particle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 990px) {
+  .particle {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
