@@ -422,9 +422,9 @@ section {
 }
 .slid-btn {
     margin-top: 70px;
-    a:first-child {
-        margin-right: 15px;
-    }
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
 }
 .main-title {
     color: $white;
