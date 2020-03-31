@@ -93,7 +93,27 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
 
           <link rel="manifest" href="/assets/favicon/manifest.json" />
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossOrigin="anonymous"></link>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+            integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
+            crossOrigin="anonymous"
+          ></link>
+
+          <meta key="title" property="og:title" content="Vai Marketplace" />
+          <meta key="site_name" property="og:site_name" content="Owlephant" />
+          <meta key="url" property="og:url" content="https://owlephant.app" />
+          <meta
+            key="description"
+            property="og:description"
+            content="Part owl, part elephant.  Coo'in and Proo'in"
+          />
+          <meta key="type" property="og:type" content="website" />
+          <meta
+            key="image"
+            property="og:image"
+            content="https://owlephant.app/assets/images/OGPhant.png"
+          />
         </Head>
         <body className="custom_class">
           <Main />
