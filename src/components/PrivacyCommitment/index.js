@@ -3,15 +3,14 @@ import { Container, Row, Col, Image, Card, CardGroup, ListGroup } from "react-bo
 
 const PrivacyCommitment = (props) => {
   return (
-    <section ref={props.innerRef} className="theme-bg slide-bg " id="section3">
+    <section ref={props.innerRef} className="theme-bg " id="section3">
       <Container>
         <Row className="justify-content-md-center">
-          <Col md="auto" className="">
+          <Col md="auto" className="text-center">
             <div className="section-title text-center">
               <h2 className="text-white">Privacy Commitment</h2>
-              <Image src="/assets/images/white-line.png" fluid />
             </div>
-            <ListGroup variant="flush">
+            <ListGroup variant="flush" className="inverse">
               <ListGroup.Item>
                 We do not log anything on our servers, nor save anything
               </ListGroup.Item>

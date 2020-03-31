@@ -23,7 +23,7 @@ const HeroSection = (props) => {
                   <h4>
                     Owlephant is a cross-platform mobile app that allows users
                     to manage and interact with any popular “fediverse” service
-                    (e.g. Pixelfed, Mastadon, Peertube, Pleroma) from the
+                    (e.g. Pixelfed, Mastodon, Peertube, Pleroma) from the
                     convenience of a single app.
                   </h4>
                   <div className="slid-btn">

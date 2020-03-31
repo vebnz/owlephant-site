@@ -1,8 +1,9 @@
 @import "base/variable";
-@import "base/style";
-@import "base/responsive";
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "base/style";
+@import "base/responsive";
 
 .particle-container {
   display: flex;

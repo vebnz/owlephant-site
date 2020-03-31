@@ -3,13 +3,14 @@ import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
 
 const HowItWorks = (props) => {
   return (
-    <section ref={props.innerRef} className="team-bg fullscreen-div" id="section2">
+    <section ref={props.innerRef} className="team-bg" id="section2">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className="text-center">
             <div className="section-title">
+              <Image src="/assets/images/elephant-color.svg" fluid style={{height: 120, marginBottom:20}}/>
               <h2>What is Owlephant?</h2>
-              <Image src="/assets/images/title-line.png" fluid />
+              
             </div>
             <p>
               Owlephant is an open source platform dedicated to growing the

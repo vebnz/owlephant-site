@@ -6,6 +6,9 @@ import HeroSection from "~/src/components/HeroSection";
 import HowItWorks from "~/src/components/HowItWorksSection";
 import PrivacyCommitment from "../src/components/PrivacyCommitment/index";
 import { Waypoint } from "react-waypoint";
+import Accessibility from "../src/components/Accessibility";
+import WhyIs from "../src/components/WhyIs";
+import Footer from "../src/components/footer";
 
 const Home = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -73,7 +76,7 @@ const Home = () => {
             setHeaderDark(false);
           }}
         >
-          <PrivacyBlock />
+          <WhyIs />
         </Waypoint>
 
         <Waypoint
@@ -86,8 +89,24 @@ const Home = () => {
             console.log("bottom left howitworks2");
           }}
         >
-          <HowItWorks />
+          <Accessibility />
         </Waypoint>
+
+        <Waypoint
+          topOffset={"5%"}
+          bottomOffset={"100%"}
+          onEnter={() => {
+            console.log("bottom onenter privacy");
+            setHeaderDark(true);
+          }}
+          onLeave={() => {
+            console.log("bottom left privacy");
+            setHeaderDark(false);
+          }}
+        >
+          <PrivacyBlock />
+        </Waypoint>
+        <Footer/>
       </div>
     </React.Fragment>
   );
