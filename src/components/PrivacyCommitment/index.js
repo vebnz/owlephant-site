@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Card, CardGroup, ListGroup } from "react-bo
 
 const PrivacyCommitment = () => {
   return (
-    <section className="theme-bg">
+    <section className="theme-bg" id="section3">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className="">

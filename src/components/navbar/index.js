@@ -8,13 +8,11 @@ import {
   NavDropdown
 } from "react-bootstrap";
 
-const OwlNavbar = () => {
+const OwlNavbar = (props) => {
+console.log("OwlNavbar -> props", props)
+  
   return (
-    <Navbar
-      expand="lg"
-      fixed="top"
-      className="theme-nav"
-    >
+    <Navbar expand="lg" fixed="top" variant={props.dark?"dark":"light"} className="theme-nav">
       <Navbar.Brand href="#home">
         <img
           alt=""
@@ -23,7 +21,7 @@ const OwlNavbar = () => {
           height="80"
           className="d-inline-block align-top"
         />{" "}
-        owlephant
+        <span className="navbar-brand-name">owlephant</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -36,4 +34,7 @@ const OwlNavbar = () => {
   );
 };
 
+OwlNavbar.defaultProps = {
+  dark: false
+}
 export default OwlNavbar;
