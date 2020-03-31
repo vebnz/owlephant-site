@@ -100,7 +100,7 @@ export default class MyDocument extends Document {
             crossOrigin="anonymous"
           ></link>
 
-          <meta key="title" property="og:title" content="Vai Marketplace" />
+          <meta key="title" property="og:title" content="Owlephant" />
           <meta key="site_name" property="og:site_name" content="Owlephant" />
           <meta key="url" property="og:url" content="https://owlephant.app" />
           <meta
@@ -112,7 +112,7 @@ export default class MyDocument extends Document {
           <meta
             key="image"
             property="og:image"
-            content="https://owlephant.app/assets/images/OGPhant.png"
+            content="https://owlephant.app/assets/images/OGphant.png"
           />
         </Head>
         <body className="custom_class">
