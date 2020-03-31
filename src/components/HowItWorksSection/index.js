@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
 
-const HowItWorks = () => {
+const HowItWorks = (props) => {
   return (
-    <section className="team-bg" id="section2">
+    <section ref={props.innerRef} className="team-bg fullscreen-div" id="section2">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className="text-center">

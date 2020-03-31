@@ -4,6 +4,13 @@
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.particle-container {
+  display: flex;
+  align-content: center;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
 .particle {
   position: absolute;
   width: 100%;
@@ -11,8 +18,11 @@
   top: 0;
   left: 0;
   pointer-events: none;
-  @media (max-width: 769px) {
-    display: none;
+}
+
+.navbar-brand{
+  img{
+    width:50px !important;
+    height:50px !important;
   }
- 
 }

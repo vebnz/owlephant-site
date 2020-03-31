@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+h1, h2 {
+  font-family: "Titan One";
+}
+
 h1 {
   line-height: 1.4em;
   font-size: 42px;
@@ -487,9 +491,9 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navbar-brand-name {
@@ -3786,6 +3790,17 @@ li.nav-item.dropdown:first-child .dropdown-menu {
 @media (max-width: 991px) {
   .work .row .col-lg-4 + .col-lg-4 {
     margin-top: 20px;
+  }
+  .fullscreen-div {
+    padding-top: 60px;
+    height: auto;
+  }
+  .fullscreen-div .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .fullscreen-div .home-right {
+    height: auto;
   }
   .slide-bg {
     padding-top: 60px;
@@ -15832,6 +15847,20 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.particle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media (max-width: 767px) {
+  .particle-container {
+    display: none;
+  }
+}
+
 .particle {
   position: absolute;
   width: 100%;
@@ -15841,9 +15870,8 @@ a.text-dark:hover, a.text-dark:focus {
   pointer-events: none;
 }
 
-@media (max-width: 769px) {
-  .particle {
-    display: none;
-  }
+.navbar-brand img {
+  width: 50px !important;
+  height: 50px !important;
 }
 /*# sourceMappingURL=styles.css.map */

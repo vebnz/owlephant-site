@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, CardGroup, ListGroup } from "react-bootstrap";
 
-const PrivacyCommitment = () => {
+const PrivacyCommitment = (props) => {
   return (
-    <section className="theme-bg" id="section3">
+    <section ref={props.innerRef} className="theme-bg slide-bg " id="section3">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className="">
@@ -12,9 +12,13 @@ const PrivacyCommitment = () => {
               <Image src="/assets/images/white-line.png" fluid />
             </div>
             <ListGroup variant="flush">
-              <ListGroup.Item>We do not log anything on our servers, nor save anything</ListGroup.Item>
+              <ListGroup.Item>
+                We do not log anything on our servers, nor save anything
+              </ListGroup.Item>
               <ListGroup.Item>Everything is encrypted</ListGroup.Item>
-              <ListGroup.Item>We are committed to making sure everyone is completely safe</ListGroup.Item>
+              <ListGroup.Item>
+                We are committed to making sure everyone is completely safe
+              </ListGroup.Item>
             </ListGroup>
           </Col>
         </Row>

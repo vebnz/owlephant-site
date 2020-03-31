@@ -7,7 +7,7 @@ import HeroFX from '../HeroFX';
 
 const HeroSection = (props) => {
   return (
-    <section className="slide-bg" id="section1">
+    <section ref={props.innerRef} className="slide-bg" id="section1">
       {/* <div className="animation-circle">
         <i></i>
         <i></i>
@@ -38,7 +38,7 @@ const HeroSection = (props) => {
               </div>
             </div>
           </Col>
-          <Col md="6" style={{display: 'flex', alignContent:"center"}}>
+          <Col md="6" className="particle-container">
             <HeroFX/>
             <Image src="assets/images/hero.svg" fluid className="d-flex-1" style={{flex: '1 1 auto'}}/>
 

@@ -12,13 +12,13 @@ const OwlNavbar = (props) => {
 console.log("OwlNavbar -> props", props)
   
   return (
-    <Navbar expand="lg" fixed="top" variant={props.dark?"dark":"light"} className="theme-nav">
+    <Navbar expand="lg" fixed="top" variant={props.dark?"dark":"light"} className={`theme-nav`}>
       <Navbar.Brand href="#home">
         <img
           alt=""
           src="/assets/images/elephant-color.svg"
-          width="80"
-          height="80"
+          width="50"
+          height="50"
           className="d-inline-block align-top"
         />{" "}
         <span className="navbar-brand-name">owlephant</span>
