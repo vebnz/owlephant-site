@@ -184,7 +184,7 @@ const About = props => {
                   <ListGroup.Item action href="https://reactjs.org/">React.js</ListGroup.Item>
                   <ListGroup.Item action href="https://nextjs.org/">Next.js</ListGroup.Item>
                   <ListGroup.Item action href="https://getbootstrap.com/">Bootstrap 4</ListGroup.Item>
-                  <ListGroup.Item>Caffeinated beverages</ListGroup.Item>
+                  <ListGroup.Item action href="http://www.ncausa.org/about-coffee">Caffeine</ListGroup.Item>
                 </ListGroup>
               </Col>
             </Row>
