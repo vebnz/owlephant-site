@@ -20,7 +20,7 @@ const About = props => {
       <Container>
         <ColorSection {...props} fullscreen>
           <div style={{ paddingTop: 20 }} className="section-title text-center">
-            <h2>About us</h2>
+            <h1>About us</h1>
           </div>
           <CardColumns>
             <Card>

@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <html lang="en">
         <title>Owlephant - PROOOOO</title>
         <Head>
           <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
