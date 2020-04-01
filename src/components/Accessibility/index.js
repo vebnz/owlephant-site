@@ -9,6 +9,7 @@ const Accessibility = (props) => {
           <Col md="auto" className="text-center">
             <div className="section-title">
               <Image
+                alt="An image depicting a person for accessibility"
                 src="/assets/images/card3.svg"
                 fluid
                 style={{ height: 120, marginBottom: 20 }}
@@ -29,7 +30,7 @@ const Accessibility = (props) => {
             </ListGroup>
           </Col>
         </Row>
-        
+
       </Container>
     </section>
   );

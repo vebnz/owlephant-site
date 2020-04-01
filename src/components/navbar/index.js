@@ -24,7 +24,7 @@ const OwlNavbar = props => {
         <Link passHref href="/">
           <Navbar.Brand>
             <img
-              alt=""
+              alt="Owlephant image in text"
               src={`/assets/images/owl${!props.dark ? "dark" : "white"}.svg`}
               width="50"
               height="50"
