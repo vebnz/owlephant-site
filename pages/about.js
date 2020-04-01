@@ -9,7 +9,8 @@ import {
   ListGroup,
   CardDeck,
   Button,
-  Container
+  Container,
+  CardColumns
 } from "react-bootstrap";
 import { Github } from "@icons-pack/react-simple-icons";
 
@@ -21,7 +22,7 @@ const About = props => {
           <div style={{ paddingTop: 20 }} className="section-title text-center">
             <h2>About us</h2>
           </div>
-          <CardDeck>
+          <CardColumns>
             <Card>
               <Card.Body className="text-center">
                 <Card.Title>Mike Mackenzie</Card.Title>
@@ -144,7 +145,7 @@ const About = props => {
                 </Card.Link>
               </Card.Body>
             </Card>
-          </CardDeck>
+          </CardColumns>
         </ColorSection>
 
         <ColorSection {...props}>
