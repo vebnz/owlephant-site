@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
+import { Container, Row, Col, Image, Card, CardGroup, Button } from "react-bootstrap";
 
 const HowItWorks = (props) => {
   return (
@@ -8,9 +8,12 @@ const HowItWorks = (props) => {
         <Row className="justify-content-md-center">
           <Col md="auto" className="text-center">
             <div className="section-title">
-              <Image src="/assets/images/elephant-color.svg" fluid style={{height: 120, marginBottom:20}}/>
+              <Image
+                src="/assets/images/elephant-color.svg"
+                fluid
+                style={{ height: 120, marginBottom: 20 }}
+              />
               <h2>What is Owlephant?</h2>
-              
             </div>
             <p>
               Owlephant is an open source platform dedicated to growing the
@@ -25,7 +28,7 @@ const HowItWorks = (props) => {
             <p>
               We want to make it even easier for the average person to download
               our app and be thrusted into the Fediverse. By using owlephant
-              **you** change the rules of the game.
+              <strong>you</strong> change the rules of the game.
             </p>
             <p>
               Another factor that we're extremely dedicated to is accessibility.
@@ -38,6 +41,11 @@ const HowItWorks = (props) => {
               We want to bring everyone together with a unified experience
               across iOS and Android.
             </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md="12">
+            <Button className="btn-theme">TEST</Button>
           </Col>
         </Row>
         <Row>
