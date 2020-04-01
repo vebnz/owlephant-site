@@ -73,8 +73,9 @@ ul {
   padding: 0;
   margin: 0;
 }
-.theme-bg {
+.gradient-bg {
   background: $bg_gradiant;
+  color: $light-gray;
 }
 .owl-theme {
   &.owl-carousel {
@@ -893,7 +894,7 @@ section {
 /*=====================
     07.screenshots section start
 ==========================*/
-.theme-bg {
+.gradient-bg {
   .animation-circle {
     i {
       bottom: 0;
@@ -1151,7 +1152,7 @@ section {
     transition: all 0.5s;
   }
 }
-.theme-bg {
+.gradient-bg {
   &:hover {
     .plan-slider,
     .plan-slider-rtl {
@@ -2449,7 +2450,7 @@ li.nav-item.dropdown {
 ==========================*/
 
 .landing-page {
-  .theme-bg {
+  .gradient-bg {
     min-height: 100vh;
     display: flex;
     align-items: center;

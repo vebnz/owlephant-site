@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
 
 const HowItWorks = (props) => {
   return (
-    <section ref={props.innerRef} className="team-bg" id="section2">
+    <section ref={props.innerRef} className="light-bg" id="section2">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className="text-center">

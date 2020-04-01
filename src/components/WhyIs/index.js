@@ -11,7 +11,7 @@ import {
 
 const WhyIs = props => {
   return (
-    <section ref={props.innerRef} className="theme-bg " id="section3">
+    <section ref={props.innerRef} className="gradient-bg " id="section3">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto" className="text-center text-white">
