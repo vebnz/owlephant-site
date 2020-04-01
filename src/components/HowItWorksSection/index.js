@@ -9,6 +9,7 @@ const HowItWorks = (props) => {
           <Col md="auto" className="text-center">
             <div className="section-title">
               <Image
+                alt="Owlephant logo"
                 src="/assets/images/elephant-color.svg"
                 fluid
                 style={{ height: 120, marginBottom: 20 }}
@@ -47,7 +48,7 @@ const HowItWorks = (props) => {
         <Row>
           <CardGroup>
             <Card>
-              <Card.Img variant="top" src="/assets/images/card1.svg" />
+              <Card.Img variant="top" src="/assets/images/card1.svg" alt="Cross platform image showing iOS, Android and Desktop" />
               <Card.Body>
                 <Card.Title>Cross Platform</Card.Title>
                 <Card.Text>
@@ -57,7 +58,7 @@ const HowItWorks = (props) => {
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="/assets/images/card2.svg" />
+              <Card.Img variant="top" src="/assets/images/card2.svg" alt="An image showing different networks tied to one source, Owlephant" />
               <Card.Body>
                 <Card.Title>One App, Multiple Service</Card.Title>
                 <Card.Text>
@@ -67,7 +68,7 @@ const HowItWorks = (props) => {
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="/assets/images/card3.svg" />
+              <Card.Img variant="top" src="/assets/images/card3.svg" alt="An image depicting a person for accessibility" />
               <Card.Body>
                 <Card.Title>Accessible</Card.Title>
                 <Card.Text>
