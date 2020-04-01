@@ -10846,7 +10846,8 @@ ul {
 }
 
 .theme-bg {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
 }
 
 .owl-theme.owl-carousel .owl-nav button.owl-next, .owl-theme.owl-carousel .owl-nav button.owl-prev {
@@ -10866,7 +10867,8 @@ ul {
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   border: 1px solid #ffffff;
 }
 
@@ -10916,7 +10918,8 @@ button:focus {
 
 .btn-theme {
   background-color: #102a3d;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   color: #ffffff !important;
   font-size: 14px;
   border-radius: 5px;
@@ -11006,7 +11009,8 @@ section {
   z-index: 99;
   color: #ffffff;
   text-align: center;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   border-radius: 100%;
   font-size: 22px;
   border: 1px solid #ffffff;
@@ -11061,7 +11065,8 @@ section {
 #box {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   -webkit-animation: animate 0.5s linear infinite;
           animation: animate 0.5s linear infinite;
   position: absolute;
@@ -11265,7 +11270,8 @@ section {
 }
 
 .darkHeader {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   -webkit-box-shadow: 1px 1px 35px 0 rgba(51, 51, 51, 0.4);
           box-shadow: 1px 1px 35px 0 rgba(51, 51, 51, 0.4);
   -webkit-transition: all 0.3s ease;
@@ -11273,7 +11279,8 @@ section {
 }
 
 .slide-bg {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   height: 100vh;
   padding-bottom: 0;
   padding-top: 80px;
@@ -12138,7 +12145,8 @@ section {
 .social-icon {
   display: none;
   padding: 15px;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -12316,7 +12324,8 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   opacity: 0;
@@ -12456,7 +12465,8 @@ section {
 }
 
 .download-bg {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   padding: 40px 0;
 }
 
@@ -12544,7 +12554,8 @@ section {
 }
 
 .subscribe-bg {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   padding: 40px 0;
 }
 
@@ -12891,7 +12902,8 @@ section {
 }
 
 .inner-page .navbar {
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
 }
 
 .inner-page .media h5 {
@@ -12929,7 +12941,7 @@ section {
 
 .blog-pagin a.page-link:hover {
   text-decoration: none;
-  background-color: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background-color: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   border-color: #3fa9f5;
   color: #ffffff !important;
   -webkit-transition: all 0.3s ease;
@@ -13179,7 +13191,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   width: 100px;
   top: 0px;
   left: 0px;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   border-radius: 100%;
   opacity: 0.5;
   -webkit-transform: scale(1.3);
@@ -13669,7 +13682,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   cursor: pointer;
   border-radius: 5px;
   color: #ffffff !important;
-  background: linear-gradient(135deg, #102a3d 0%, #3fa9f5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#102a3d), to(#3fa9f5));
+  background: linear-gradient(to right, #102a3d 0%, #3fa9f5 100%);
   padding: 5px 20px;
   -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
           box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
@@ -15885,6 +15899,28 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   top: 0;
   left: 0;
   pointer-events: none;
+}
+
+.blurry.navbar-dark {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(16, 42, 61, 0.7)), to(rgba(63, 169, 245, 0.7)));
+  background: linear-gradient(to right, rgba(16, 42, 61, 0.7) 0%, rgba(63, 169, 245, 0.7) 100%);
+}
+
+.blurry.navbar-light {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@supports ((-webkit-backdrop-filter: blur(4px)) or (backdrop-filter: blur(4px))) {
+  .blurry {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+  }
+  .blurry.navbar-dark {
+    background: rgba(255, 255, 255, 0);
+  }
+  .blurry.navbar-light {
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
 
 .navbar-brand img {

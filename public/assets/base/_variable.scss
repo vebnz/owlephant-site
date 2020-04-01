@@ -30,7 +30,8 @@ $font_1: sans-serif;
 //Color settings
 $primary_color: #102a3d;
 $secondary_color: #3fa9f5;
-$bg_gradiant : linear-gradient(135deg,$primary_color 0%, $secondary_color 100%);
+$bg_gradiant : linear-gradient(to right,$primary_color 0%, $secondary_color 100%);
+$bg_gradiant_a : linear-gradient(to right, rgba($primary_color, .7) 0%, rgba($secondary_color, .7) 100%);
 $color_bay_of_many_45_approx :rgba( $primary_color, .45 );
 
 $navbar-light-brand-color: #102a3d !default;
