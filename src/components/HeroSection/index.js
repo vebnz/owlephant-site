@@ -35,21 +35,27 @@ const HeroSection = props => {
                   </h4>
                   <div className="slid-btn">
                     <a href="https://pixelfed.org/" target="_blank">
+                      <span style={{ display: 'none' }}>PixelFed website</span>
                       <i className="fa fa-pixelfed fa-3x fa-inverse"></i>
                     </a>
                     <a href="https://joinmastodon.org/" target="_blank">
+                      <span style={{ display: 'none' }}>Mastodon website</span>
                       <i className="fa fa-mastodon fa-3x fa-inverse"></i>
                     </a>
                     <a href="https://socialhome.network/" target="_blank">
+                      <span style={{ display: 'none' }}>SocialHome website</span>
                       <i className="fa fa-social-home fa-3x fa-inverse"></i>
                     </a>
                     <a href="https://pleroma.social/" target="_blank">
+                      <span style={{ display: 'none' }}>Pleroma website</span>
                       <i className="fa fa-pleroma fa-3x fa-inverse"></i>
                     </a>
                     <a href="https://joinpeertube.org/" target="_blank">
+                      <span style={{ display: 'none' }}>PeerTube website</span>
                       <i className="fa fa-peertube fa-3x fa-inverse"></i>
                     </a>
                     <a href="https://diasporafoundation.org/" target="_blank">
+                      <span style={{ display: 'none' }}>Diasopra website</span>
                       <i className="fa fa-diaspora fa-3x fa-inverse"></i>
                     </a>
                   </div>
