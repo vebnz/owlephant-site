@@ -73,6 +73,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+.fullscreen-div {
+  min-height: 100vh;
+}
 .gradient-bg {
   background: $bg_gradiant;
   color: $light-gray;

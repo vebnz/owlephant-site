@@ -435,7 +435,7 @@
   }
   .fullscreen-div {
     padding-top: 60px;
-    height: auto;
+    min-height: auto;
     .container{
       margin-top: 40px;
       margin-bottom: 40px;
