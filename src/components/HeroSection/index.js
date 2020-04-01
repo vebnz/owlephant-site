@@ -60,6 +60,7 @@ const HeroSection = props => {
           <Col md="6" className="particle-container">
             <HeroFX />
             <Image
+              alt="Owlephant in fancy text"
               src="assets/images/hero.svg"
               fluid
               className="d-flex-1"
