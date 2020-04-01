@@ -16,7 +16,7 @@ const WhyIs = props => {
         <Row className="justify-content-md-center">
           <Col md="auto" className="text-center text-white">
             <div className="section-title text-center">
-              <h2>WHY is Owlelephant?</h2>
+              <h2>WHY is Owlephant?</h2>
             </div>
             <p>
               Owlephant is designed from the start to be accessible, and cross
