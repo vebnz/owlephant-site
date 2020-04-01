@@ -11224,6 +11224,10 @@ section {
   height: 50px !important;
 }
 
+.card-title {
+  font-weight: 600;
+}
+
 /*========================
 23.Responsive css start
 ==========================*/
