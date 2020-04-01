@@ -178,7 +178,7 @@ const About = props => {
                 <div className="section-title">
                   <h2>About the site</h2>
                 </div>
-                <p>Powered by the following technologies...</p>
+                <p>Powered by the following technologies</p>
                 <ListGroup variant="flush" horizontal>
                   <ListGroup.Item action href="https://reactjs.org/">React.js</ListGroup.Item>
                   <ListGroup.Item action href="https://nextjs.org/">Next.js</ListGroup.Item>
