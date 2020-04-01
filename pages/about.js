@@ -131,11 +131,11 @@ const About = props => {
               </Card.Body>
               <Card.Body>
                 <Card.Text>
-                  <p>x`
-                  After working for the New Zealand Stock Exchange as a DevOps
-                  analyst helping manage, operate, and maintain all systems in t
-                  he exchange. Jamie also worked as Senior Web Developer for the
-                  Agri division of NZX leading the development for their three websites.
+                  <p>
+                    After working for the New Zealand Stock Exchange as a DevOps
+                    analyst helping manage, operate, and maintain all systems in t
+                    he exchange. Jamie also worked as Senior Web Developer for the
+                    Agri division of NZX leading the development for their three websites.
                     <p>
                       Jamie moved to Bahrain in 2015 and continued his Web Development role remotely.
                       In 2017 Jamie left to be part of a FinTech startup in Bahrain.
