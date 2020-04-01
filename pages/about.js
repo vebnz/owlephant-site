@@ -175,12 +175,15 @@ const About = props => {
         <ColorSection {...props}>
           <Container>
             <Row className="justify-content-md-center">
-              <Col md="auto" className="text-center">
+              <Col md="8" className="text-center">
                 <div className="section-title">
                   <h2>About the site</h2>
                 </div>
+                </Col>
+                <Col lg="8" className="text-center">
+                  
                 <p>Powered by the following technologies</p>
-                <ListGroup fluid variant="flush" horizontal>
+                <ListGroup fluid variant="flush" horizontal="sm">
                   <ListGroup.Item action href="https://reactjs.org/">React.js</ListGroup.Item>
                   <ListGroup.Item action href="https://nextjs.org/">Next.js</ListGroup.Item>
                   <ListGroup.Item action href="https://getbootstrap.com/">Bootstrap 4</ListGroup.Item>

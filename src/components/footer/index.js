@@ -7,43 +7,43 @@ const Footer = () => {
         <Row>
           <Col md={12} className="text-center">
             <div className="social-footer">
-              <div class="slid-btn">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
+              <div className="slid-btn">
+                <span className="fa-stack fa-lg">
+                  <i className="fa fa-circle fa-stack-2x"></i>
 
                   <i
-                    class="fa fa-facebook fa-stack-1x fa-inverse"
+                    className="fa fa-facebook fa-stack-1x fa-inverse"
                     aria-hidden="true"
                   ></i>
                 </span>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
+                <span className="fa-stack fa-lg">
+                  <i className="fa fa-circle fa-stack-2x"></i>
 
                   <i
-                    class="fa fa-mastodon fa-stack-1x fa-inverse"
+                    className="fa fa-mastodon fa-stack-1x fa-inverse"
                     aria-hidden="true"
                   ></i>
                 </span>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
+                <span className="fa-stack fa-lg">
+                  <i className="fa fa-circle fa-stack-2x"></i>
 
                   <i
-                    class="fa fa-twitter fa-stack-1x fa-inverse"
+                    className="fa fa-twitter fa-stack-1x fa-inverse"
                     aria-hidden="true"
                   ></i>
                 </span>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
+                <span className="fa-stack fa-lg">
+                  <i className="fa fa-circle fa-stack-2x"></i>
 
                   <i
-                    class="fa fa-instagram fa-stack-1x fa-inverse"
+                    className="fa fa-instagram fa-stack-1x fa-inverse"
                     aria-hidden="true"
                   ></i>
                 </span>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
+                <span className="fa-stack fa-lg">
+                  <i className="fa fa-circle fa-stack-2x"></i>
                   <i
-                    class="fa fa-rss fa-stack-1x fa-inverse"
+                    className="fa fa-rss fa-stack-1x fa-inverse"
                     aria-hidden="true"
                   ></i>
                 </span>
