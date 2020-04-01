@@ -16,6 +16,8 @@ import { Github } from "@icons-pack/react-simple-icons";
 const About = props => {
   return (
     <React.Fragment>
+      <Container>
+
       <ColorSection {...props} fullscreen>
         <div style={{ paddingTop: 20 }} className="section-title text-center">
           <h2>About us</h2>
@@ -178,6 +180,7 @@ const About = props => {
           </Row>
         </Container>
       </ColorSection>
+      </Container>
     </React.Fragment>
   );
 };
