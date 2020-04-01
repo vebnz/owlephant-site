@@ -43,11 +43,7 @@ const HowItWorks = (props) => {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col md="12">
-            <Button className="btn-theme">TEST</Button>
-          </Col>
-        </Row>
+
         <Row>
           <CardGroup>
             <Card>
