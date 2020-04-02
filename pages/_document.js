@@ -115,15 +115,6 @@ export default class MyDocument extends Document {
             content="https://owlephant.app/assets/images/OGphant.png"
           />
           
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162522027-1"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-162522027-1');
-          </script>
-
         </Head>
         <body className="custom_class">
           <Main />
