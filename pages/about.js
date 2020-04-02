@@ -120,7 +120,7 @@ const About = props => {
                 <Card.Link href="mailto:rayarvin@veb.co.nz">
                   rayarvin @ veb.co.nz
                 </Card.Link>
-                <Card.Link href="http://ph.linkedin.com/pub/ray-arvin-rimorin">
+                <Card.Link href="https://www.linkedin.com/in/ray-arvin-rimorin-0530b232/">
                   LinkedIn
                 </Card.Link>
               </Card.Body>
@@ -179,9 +179,9 @@ const About = props => {
                 <div className="section-title">
                   <h2>About the site</h2>
                 </div>
-                </Col>
-                <Col lg="8" className="text-center">
-                  
+              </Col>
+              <Col lg="8" className="text-center">
+
                 <p>Powered by the following technologies</p>
                 <ListGroup fluid variant="flush" horizontal="sm">
                   <ListGroup.Item action href="https://reactjs.org/">React.js</ListGroup.Item>
