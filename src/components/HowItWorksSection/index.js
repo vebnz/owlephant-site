@@ -29,7 +29,7 @@ const HowItWorks = (props) => {
             <p>
               We want to make it even easier for the average person to download
               our app and be thrusted into the Fediverse. By using owlephant
-              <strong>you</strong> change the rules of the game.
+               <strong>you</strong> change the rules of the game.
             </p>
             <p>
               Another factor that we're extremely dedicated to is accessibility.
