@@ -10,43 +10,35 @@ const Footer = () => {
               <div className="slid-btn">
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
-
-                  <i
-                    className="fa fa-facebook fa-stack-1x fa-inverse"
-                    aria-hidden="true"
-                  ></i>
+                  <a href="https://mastodon.social/@owlephant" target="_blank">
+                    <i
+                      className="fa fa-mastodon fa-stack-1x fa-inverse"
+                      aria-hidden="true"
+                    ></i>
+                    <span style={{ display: 'none' }}>Owlephant account at Mastodon</span>
+                  </a>
                 </span>
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
-
-                  <i
-                    className="fa fa-mastodon fa-stack-1x fa-inverse"
-                    aria-hidden="true"
-                  ></i>
+                  <a href="https://twitter.com/owlephantapp" target="_blank">
+                    <i
+                      className="fa fa-twitter fa-stack-1x fa-inverse"
+                      aria-hidden="true"
+                    ></i>
+                    <span style={{ display: 'none' }}>Owlephant account at Twitter</span>
+                  </a>
                 </span>
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
+                  <a href="https://pixelfed.social/owlephant" target="_blank">
+                    <i
+                      className="fa fa-pixelfed fa-stack-1x fa-inverse"
+                      aria-hidden="true"
+                    ></i>
+                    <span style={{ display: 'none' }}>Owlephant account at PixelFed</span>
+                  </a>
+                </span>
 
-                  <i
-                    className="fa fa-twitter fa-stack-1x fa-inverse"
-                    aria-hidden="true"
-                  ></i>
-                </span>
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-
-                  <i
-                    className="fa fa-instagram fa-stack-1x fa-inverse"
-                    aria-hidden="true"
-                  ></i>
-                </span>
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i
-                    className="fa fa-rss fa-stack-1x fa-inverse"
-                    aria-hidden="true"
-                  ></i>
-                </span>
               </div>
             </div>
           </Col>
@@ -55,7 +47,7 @@ const Footer = () => {
           </div>
         </Row>
       </Container>
-    </footer>
+    </footer >
   );
 };
 
