@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&family=Sen&display=swap");
+
+body {
+  font-family: "Sen", $font_1;
+  background-color: $white;
+  position: relative;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: "Titan One";
+}
+h1 {
+  line-height: 1.4em;
+  font-size: 42px;
+}
+h2 {
+  line-height: 28px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+h3 {
+  line-height: 28px;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #586082;
+  letter-spacing: 1px;
+}
+h4 {
+  line-height: 28px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+
+  letter-spacing: 1px;
+}
+h5 {
+  line-height: 28px;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+}
+h6 {
+  line-height: 28px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-top: 25px;
+
+  margin-bottom: 25px;
+}
+p {
+  line-height: 23px;
+  font-size: 16px;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.05rem;
+}
+a {
+  &:hover {
+    color: $secondary_color;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.fullscreen-div {
+  min-height: 100vh;
+}
+.gradient-bg {
+  background: $bg_gradiant;
+  color: $light-gray;
+}
+
+.text-black {
+  color: $black !important;
+}
+button:focus {
+  outline: none;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.btn-theme {
+  background-color: $primary_color;
+  background: $bg_gradiant;
+  color: $white !important;
+  
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 0;
+  letter-spacing: 1px;
+  &:hover {
+    background: $bg_gradiant_reverse;
+    background-color: $primary_color;
+  }
+}
+.btn-theme-primary {
+  background-color: $secondary_color;
+  color: $white !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  border: 1px solid $secondary_color;
+  &:hover {
+    background-color: transparent;
+    color: $secondary_color !important;
+    border: 1px solid $secondary_color;
+    transition: all 0.3s ease-in-out;
+  }
+}
+.d-flex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.display-flex {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.margin-top-100 {
+  margin-top: 110px;
+}
+.theme-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  transition: all 0.3s ease;
+  .navbar {
+    background-color: transparent;
+  }
+  .nav-link {
+    display: block;
+    padding: 25px 1rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+  }
+  .nav-item {
+    font-size: 14px;
+    padding: 20px 5px;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .dropdown-menu {
+    .nav-item {
+      font-size: 13px;
+      padding: 0;
+    }
+    .nav-link {
+      color: $primary_color !important;
+    }
+  }
+  .navbar-nav .active > .nav-link {
+    color: $secondary_color;
+  }
+  .navbar-toggler-icon i {
+    color: $white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+.navbar-toggler {
+  padding-right: 0;
+  .navbar-toggler-icon {
+    width: auto;
+  }
+}
+.navbar-nav {
+  .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  > li.dropdown {
+    position: relative;
+  }
+  a {
+    &.nav-link {
+      &.active {
+        color: $white;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  align-items: center;
+  display: flex;
+}
+.navbar-brand-name {
+  font-family: "Titan One";
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.slide-bg {
+  background: $bg_gradiant;
+  height: 100vh;
+  padding-bottom: 0;
+  padding-top: 80px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      .home-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+    }
+  }
+}
+.slide-text {
+  color: $white;
+  margin-top: -20px;
+  h4 {
+    font-size: 18px;
+
+    font-weight: 400;
+  }
+}
+.slid-btn {
+  margin-top: 70px;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+}
+.main-title {
+  color: $white;
+  font-weight: 600;
+}
+.sub-title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.mobile-slid {
+  text-align: center;
+}
+.gradient-bg {
+  .animation-circle {
+    i {
+      bottom: 0;
+    }
+  }
+}
+.slider-mobile {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  top: 0;
+}
+
+.list-group-flush {
+  &.inverse {
+    color: $white;
+    .list-group-item {
+      background-color: transparent !important;
+      border-right-width: 0;
+      border-left-width: 0;
+      @include border-radius(0);
+
+      &:first-child {
+        border-top-width: 0;
+      }
+    }
+
+    &:last-child {
+      .list-group-item:last-child {
+        border-bottom-width: 0;
+      }
+    }
+  }
+}
+
+.social-bg {
+  background-color: $primary_color;
+  padding: 15px 0;
+}
+.social-footer {
+  margin-top: 30px;
+  ul li {
+    display: inline-flex;
+    height: 35px;
+    width: 35px;
+    background: $primary_color;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    a {
+      color: $white !important;
+    }
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+    }
+  }
+}
+.copy-right-bg {
+  padding: 25px;
+}
+.copyright {
+  margin: 20px 0 25px;
+}
+
+.particle-container {
+  display: flex;
+  align-content: center;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.particle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.blurry {
+  &.navbar-dark {
+    background: $bg_gradiant_a;
+  }
+  &.navbar-light {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(4px)) or (backdrop-filter: blur(4px))
+) {
+  .blurry {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    &.navbar-dark {
+      background: rgba(255, 255, 255, 0);
+    }
+    &.navbar-light {
+      background-color: rgba(255, 255, 255, 0);
+    }
+  }
+}
+.navbar-brand {
+  img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+.card-title {
+  font-weight: 600;
+}
