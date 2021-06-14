@@ -1,3 +1,8 @@
+Screenshot:
+![image](https://user-images.githubusercontent.com/82421519/121853180-b4d10700-cd44-11eb-90ff-9e5cfc2cc0e8.png)
+
+If the domain is still up, you can visit this project at https://owlephant.app
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
