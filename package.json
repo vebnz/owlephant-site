@@ -10,7 +10,7 @@
   "dependencies": {
     "@icons-pack/react-simple-icons": "^2.5.0",
     "bootstrap": "^4.4.1",
-    "next": "^11.1.3",
+    "next": "^12.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-device-frames": "^1.0.0",
